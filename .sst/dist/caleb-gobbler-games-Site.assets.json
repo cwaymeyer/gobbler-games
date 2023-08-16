@@ -1,0 +1,62 @@
+{
+  "version": "33.0.0",
+  "files": {
+    "c24a7d994fe6e94623f8c5fab8909411e9f233a63e790aea4a3cac5099968d29": {
+      "source": {
+        "path": "asset.c24a7d994fe6e94623f8c5fab8909411e9f233a63e790aea4a3cac5099968d29",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "523667113996-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-523667113996-us-east-1",
+          "objectKey": "c24a7d994fe6e94623f8c5fab8909411e9f233a63e790aea4a3cac5099968d29.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::523667113996:role/cdk-hnb659fds-file-publishing-role-523667113996-us-east-1"
+        }
+      }
+    },
+    "5cc92ed0cea39e2b8de2dbc527dfb5980a3af9564bd1084d840b9787c7d0467e": {
+      "source": {
+        "path": "asset.5cc92ed0cea39e2b8de2dbc527dfb5980a3af9564bd1084d840b9787c7d0467e",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "523667113996-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-523667113996-us-east-1",
+          "objectKey": "5cc92ed0cea39e2b8de2dbc527dfb5980a3af9564bd1084d840b9787c7d0467e.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::523667113996:role/cdk-hnb659fds-file-publishing-role-523667113996-us-east-1"
+        }
+      }
+    },
+    "1d2c38da028be1a00797b98f6c3321393755fef6118a9d5f263813c322cab0e8": {
+      "source": {
+        "path": "asset.1d2c38da028be1a00797b98f6c3321393755fef6118a9d5f263813c322cab0e8.zip",
+        "packaging": "file"
+      },
+      "destinations": {
+        "523667113996-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-523667113996-us-east-1",
+          "objectKey": "1d2c38da028be1a00797b98f6c3321393755fef6118a9d5f263813c322cab0e8.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::523667113996:role/cdk-hnb659fds-file-publishing-role-523667113996-us-east-1"
+        }
+      }
+    },
+    "b4807bee8888f10ff1138a73a60f11e472208cb9eebb946a58849275b5759fc3": {
+      "source": {
+        "path": "caleb-gobbler-games-Site.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "523667113996-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-523667113996-us-east-1",
+          "objectKey": "b4807bee8888f10ff1138a73a60f11e472208cb9eebb946a58849275b5759fc3.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::523667113996:role/cdk-hnb659fds-file-publishing-role-523667113996-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
